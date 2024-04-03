@@ -14,13 +14,15 @@ export default [
     plugins: [
       nodeResolve(),
       commonjs(),
-      image(),
+      image({
+        inline: true, // Enable inlining
+      }),
       babel({
         exclude: "node_modules/**",
         presets: ["@babel/preset-env"],
       }),
       copy({
-        targets: [{ src: "public/WFTlogo.svg", dest: "dist/public" }],
+        targets: [{ src: "public/WFTlogo.svg", dest: "dist" }],
       }),
     ],
   },
