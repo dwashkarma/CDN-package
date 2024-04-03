@@ -2,7 +2,7 @@
   "name": "cdn-package",
   "version": "1.0.12",
   "description": "",
-  "main": "dist/bundle.js",
+  "main": "bundle.js",
   "type": "module",
   "files": [
     "dist"
