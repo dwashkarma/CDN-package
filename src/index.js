@@ -5,5 +5,5 @@
   let getElement = document.getElementById("logo");
   getElement.innerHTML = "";
   getElement.appendChild(img);
-  document.getElementsByTagName[0]("logo").style.height = "2rem";
+  document.getElementsByTagName[0]("img").style.height = "2rem";
 })();
