@@ -1,6 +1,6 @@
 (function () {
   let img = document.createElement("img");
-  img.src = "/assets/WFTlogo.jpg";
+  img.src = "/WFTlogo.jpg";
   let getElement = document.getElementById("logo");
   getElement.innerHTML = "";
   getElement.appendChild(img);
