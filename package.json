@@ -1,8 +1,8 @@
 {
   "name": "cdn-package",
-  "version": "1.0.13",
+  "version": "1.0.12",
   "description": "",
-  "main": "bundle.js",
+  "main": "dist/bundle.js",
   "type": "module",
   "files": [
     "dist"
