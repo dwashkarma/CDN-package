@@ -20,7 +20,7 @@ export default [
         presets: ["@babel/preset-env"],
       }),
       copy({
-        targets: [{ src: "public/WFTlogo.jpg", dest: "dist/assets" }],
+        targets: [{ src: "public/WFTlogo.jpg", dest: "dist/public" }],
       }),
     ],
   },
