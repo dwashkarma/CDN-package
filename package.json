@@ -4,6 +4,10 @@
   "description": "",
   "main": "dist/bundle.js",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dwashkarma/CDN-package.git"
+  },
   "files": [
     "dist"
   ],
